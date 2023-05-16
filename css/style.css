@@ -66,8 +66,16 @@ header .navbar-light .navbar-toggler {
   border: none;
 }
 /*  */
-
-
+.privacy_list{
+  list-style: none;
+  margin-left: 30px;
+  font-size: 19px;
+  font-weight: 400;
+  
+}
+.privacy_item{
+  margin: 20px 0;
+}
 
 /* Banner section */
 
