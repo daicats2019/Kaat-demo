@@ -70,13 +70,30 @@ header .navbar-light .navbar-toggler {
 
 
 /* Banner section */
+
+.contact_item::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 3px solid #6c757d;
+    height: 20px;
+    right: 230px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .banner {
   margin-top: 95px;
+  background-color: #ffeffe;
 }
 
 .banner .content-box h1 {
   line-height: 50px;
   padding-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .banner .content-box p {
@@ -97,7 +114,7 @@ header .navbar-light .navbar-toggler {
   color: white;
   padding: 22px 46px;
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .logo_katvpn{
   width: 60px;
@@ -285,6 +302,10 @@ header .navbar-light .navbar-toggler {
 
 .location .map {
   padding: 50px 0;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  display: flex;
 }
 
 .clients {
