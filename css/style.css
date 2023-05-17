@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 html {
@@ -19,7 +19,7 @@ html {
 .reveal {
   opacity: 0;
   -webkit-transform: translate3d(0, 100px, 0);
-          transform: translate3d(0, 100px, 0);
+  transform: translate3d(0, 100px, 0);
   -webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
   transition: opacity 0.8s, -webkit-transform 0.8s;
   transition: opacity 0.8s, transform 0.8s;
@@ -29,14 +29,14 @@ html {
 .reveal_visible {
   opacity: 1;
   -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 header {
   font-size: 20px;
   font-weight: 400;
   padding-top: 30px;
-  margin-bottom: 120px;
+  margin-bottom: 10px;
   background-color: white;
 }
 
@@ -49,7 +49,7 @@ header .navbar-btn a {
 }
 
 header .navbar-btn .btn-1 {
-  color: #0B132A;
+  color: #0b132a;
   font-weight: 400;
   margin-right: 12px;
 }
@@ -65,21 +65,21 @@ header .navbar-light .navbar-toggler {
   color: #ec1db5;
   border: none;
 }
+
 /*  */
-.privacy_list{
+.privacy_list {
   list-style: none;
   margin-left: 30px;
   font-size: 19px;
   font-weight: 400;
-  
 }
-.privacy_item{
+.privacy_item {
   margin: 20px 0;
 }
 
 /* Banner section */
 
-.contact_item::after {
+/* .contact_item::after {
     content: "";
     display: block;
     position: absolute;
@@ -88,10 +88,10 @@ header .navbar-light .navbar-toggler {
     right: 230px;
     top: 50%;
     transform: translateY(-50%);
-}
+} */
 
 .banner {
-  margin-top: 95px;
+  margin: 30px 0;
   background-color: #ffeffe;
 }
 
@@ -124,14 +124,14 @@ header .navbar-light .navbar-toggler {
   border: none;
   border-radius: 50px;
 }
-.logo_katvpn{
+.logo_katvpn {
   width: 60px;
   height: 60px;
 }
 .banner .user-count {
   margin: 100px 0;
   -webkit-box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
-          box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
+  box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
 }
 
 .banner .user-count .count-box {
@@ -139,7 +139,7 @@ header .navbar-light .navbar-toggler {
 }
 
 .banner .user-count .count-box .icon {
-  background-color: #FFECEC;
+  background-color: #ffecec;
   color: #ec1db5;
   height: 50px;
   width: 50px;
@@ -148,15 +148,17 @@ header .navbar-light .navbar-toggler {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-right: 50px;
 }
 
-.banner .user-count .count-box .count-item #counters_1, .banner .user-count .count-box .count-item #counters_2, .banner .user-count .count-box .count-item #counters_3 {
+.banner .user-count .count-box .count-item #counters_1,
+.banner .user-count .count-box .count-item #counters_2,
+.banner .user-count .count-box .count-item #counters_3 {
   font-size: 25px;
   font-weight: 700;
 }
@@ -166,7 +168,7 @@ header .navbar-light .navbar-toggler {
 }
 
 .features {
-  margin: 200px 0;
+  margin: 25px 0;
 }
 
 .features .illustration {
@@ -189,7 +191,7 @@ header .navbar-light .navbar-toggler {
 
 .features .content-box .f-list li .icon {
   margin-right: 10px;
-  background-color: #2FAB73;
+  background-color: #2fab73;
   color: white;
   height: 30px;
   width: 30px;
@@ -224,11 +226,11 @@ header .navbar-light .navbar-toggler {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border: #4f5665b7 2px solid;
   border-radius: 15px;
   margin: auto;
@@ -244,7 +246,13 @@ header .navbar-light .navbar-toggler {
   margin-bottom: 12px;
 }
 
-.pricing .pricing-cards .plans .card .card-body .list-group-flush > .list-group-item {
+.pricing
+  .pricing-cards
+  .plans
+  .card
+  .card-body
+  .list-group-flush
+  > .list-group-item {
   border-width: 0 !important;
 }
 
@@ -259,7 +267,7 @@ header .navbar-light .navbar-toggler {
 
 .pricing .pricing-cards .plans .card .card-body li .icon {
   margin-right: 10px;
-  color: #2FAB73;
+  color: #2fab73;
   height: 30px;
   width: 30px;
   padding: 6px;
@@ -288,9 +296,9 @@ header .navbar-light .navbar-toggler {
   transition: all 200ms cubic-bezier(0.77, 0, 0.175, 1);
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .pricing .pricing-cards .plans .card .btn-subscribe:hover {
@@ -362,7 +370,7 @@ header .navbar-light .navbar-toggler {
 .testimonials .testimonial-cards .card .row h5 {
   margin: 0;
   font-weight: 500;
-  color: #0B132A;
+  color: #0b132a;
 }
 
 .testimonials .testimonial-cards .card .row p {
@@ -381,7 +389,7 @@ header .navbar-light .navbar-toggler {
 
 .testimonials .testimonial-cards .card p {
   font-size: 16px;
-  color: #0B132A;
+  color: #0b132a;
   line-height: 30px;
 }
 
@@ -394,13 +402,13 @@ header .navbar-light .navbar-toggler {
 }
 
 footer {
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
 }
 
 footer .subscribe {
   background-color: white;
   -webkit-box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
-          box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
+  box-shadow: 4px 10px 7px 5px rgba(109, 108, 108, 0.027);
   border-radius: 5px;
   position: relative;
   top: -90px;
@@ -427,7 +435,7 @@ footer .subscribe .row .btn-subscribe a {
   border: none;
   border-radius: 10px;
   -webkit-box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
-          box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
+  box-shadow: 4px 5px 5px 2px rgba(247, 45, 45, 0.13);
 }
 
 footer .footer-links {
@@ -461,7 +469,7 @@ footer .footer-links .col-right .social-icons .icon {
   margin-right: 5px;
   padding: 10px;
   -webkit-box-shadow: 4px 2px 3px rgba(247, 79, 79, 0.144);
-          box-shadow: 4px 2px 3px rgba(247, 79, 79, 0.144);
+  box-shadow: 4px 2px 3px rgba(247, 79, 79, 0.144);
 }
 
 footer .footer-links .col-left h5 {
